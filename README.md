@@ -35,9 +35,9 @@
 
 - `Else` "Set properties globally" is checked(default),
   - It is a global git configuration for user's all projects.
-	- `If` Git Bash is installed on Windows,
+  - `If` Git Bash is installed on Windows,
       - User's information is added to the general Windows global git configuration file.
-	- `Else` Git Bash is not installed on Windows,
+  - `Else` Git Bash is not installed on Windows,
       - (중요!!!)User's information is added to the .gitconfig file of WSL2!!!
       - Moreover, conditional statement `IncludeIf` in .gitconfig of WSL2 is ignored by IntelliJ.
       - If you use only one git account, you can unify all git management on your PC with wsl2.
