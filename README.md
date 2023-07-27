@@ -24,7 +24,7 @@
   - InteliiJ는 WSL2의 프로젝트 오픈시, 자동으로 WSL2의 글로벌 git설정을 참조한다.
     - 참고: https://www.jetbrains.com/help/idea/settings-version-control-git.html
     - `File-Settings-Version Control-Git-Path to Git excutable`에서 글로벌 git 정보 확인 및 변경가능
-
+- 좀 느릴 수 있는데, 편집만 intellij에서 하고, 빌드 및 git관리는 WSL에서 하는 방식으로도 작업가능
 
 ## Git 관련 참고
 - global git이 설정되어있지 않은 상태에서, InteliiJ에서 commit을 시도하면 user.name과 user.email을 설정하라는 창이 뜬다.
